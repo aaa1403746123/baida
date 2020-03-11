@@ -1,0 +1,22 @@
+<view class="header">
+<view class="con">
+<image src="/pages/images/giao.jpg" class="giao"></image>
+<view class="content">
+<view class="id">TCK465464846</view>
+<view class="shuzi">
+<view class="number">13155400846</view>
+<view bindtap="click" class="btn">修改</view>
+</view>
+</view>
+</view>
+</view>
+<view class="you">
+<block wx:for="{{youhui}}">
+<view class="youhui">
+<view class="ic">
+<icon type="success"></icon>{{item.text}} {{item.number}}
+</view>
+</view>
+</block>
+
+</view>

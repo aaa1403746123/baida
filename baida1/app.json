@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/buy/buy",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F0E68C",
+    "navigationBarTitleText": "百搭小铺",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar":{
+       "color": "#dddddd",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "white",
+      "backgroundColor": "#ffffff",
+      "list":[
+        {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/house.png",
+        "selectedIconPath": "pages/images/house.png",
+        "text": "首页"
+        },
+        {
+          "pagePath": "pages/buy/buy",
+          "iconPath": "pages/images/buy.png",
+          "selectedIconPath": "pages/images/buy.png",
+          "text": "购物车"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "iconPath": "pages/images/my.png",
+          "selectedIconPath": "pages/images/my.png",
+          "text": "我的"
+        }
+      ]
+    },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

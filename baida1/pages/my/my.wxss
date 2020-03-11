@@ -1,0 +1,50 @@
+/* pages/my/my.wxss */
+.header{
+  width:100%;
+  height: 150rpx;
+  background-color:#F0E68C;
+}
+.con{
+   display: flex;
+  justify-content: start;
+  padding-left: 50rpx;
+  padding-top:15rpx;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+}
+.giao{
+  width:100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+}
+.shuzi{
+  display: flex;
+  justify-content: start;
+}
+.btn {
+font-size:16rpx;
+color: red;
+margin:8rpx;
+border: 1px black solid;
+border-radius: 40px;
+background-color: white;
+}
+.number{
+  font-size:26rpx;
+}
+.you{
+  margin-top:20rpx;
+}
+.youhui{
+  border-bottom: 1px gray solid;
+  display:flex;
+  flex-direction: column;
+  font-size:16px;
+}
+.ic{
+  display: flex;
+  flex-direction: start;
+}
